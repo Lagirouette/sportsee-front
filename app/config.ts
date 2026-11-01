@@ -1,0 +1,1 @@
+export const WEEKLY_GOAL = 6;
