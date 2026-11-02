@@ -14,7 +14,7 @@ export const MOCK_USERS: Record<string, MockUser> = {
         firstName: "Sophie",
         lastName: "Martin",
         createdAt: "2025-01-01",
-        age: 32,
+        age: 35,
         weight: 60,
         height: 165,
         profilePicture: "/mock/sophie.jpg",

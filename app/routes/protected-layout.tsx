@@ -12,12 +12,12 @@ export default function ProtectedLayout() {
   }
 
   return (
-    <>
+    <div className="flex min-h-screen flex-col">
       <Header />
-      <main>
+      <main className="mx-auto w-full max-w-[1120px] flex-1 px-8 pb-16 pt-10">
         <Outlet />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
